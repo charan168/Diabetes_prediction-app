@@ -1,0 +1,39 @@
+{
+  "trained_at": "2026-10-26T06:07:50.090869+00:00",
+  "dataset": "Pima Indians Diabetes (768 rows, public)",
+  "n_rows_used": 768,
+  "n_train": 614,
+  "n_test": 154,
+  "random_state": 42,
+  "best_params": {
+    "rf__max_depth": 4,
+    "rf__min_samples_leaf": 5,
+    "rf__n_estimators": 200
+  },
+  "cv_roc_auc_train_only": 0.8399930786267996,
+  "test_metrics_held_out": {
+    "accuracy": 0.7337662337662337,
+    "precision": 0.5915492957746479,
+    "recall": 0.7777777777777778,
+    "f1": 0.672,
+    "roc_auc": 0.8155555555555555,
+    "confusion_matrix": {
+      "tn": 71,
+      "fp": 29,
+      "fn": 12,
+      "tp": 42
+    }
+  },
+  "feature_importances": {
+    "Glucose": 0.3707462346548515,
+    "BMI": 0.1881839912411889,
+    "Age": 0.1257848880392271,
+    "Insulin": 0.11903939447069621,
+    "DiabetesPedigreeFunction": 0.06370107336469501,
+    "Pregnancies": 0.05141924579799886,
+    "SkinThickness": 0.04428095450518674,
+    "BloodPressure": 0.03684421792615559
+  },
+  "sklearn_version": "1.9.1",
+  "note": "Metrics were measured on a held-out test split never used for fitting or tuning. Demonstration only - not medical advice."
+}
