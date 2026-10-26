@@ -169,3 +169,4 @@ clear that test database. They never touch your main database.
 - Dataset: Pima Indians Diabetes data was collected from adult women of Pima heritage (age ≥ 21), so the
   model should not be assumed to generalise to other populations.
 - Patient inputs are stored in MongoDB without identifiers. Do not enter real patient data in a demo.
+# Diabetes_prediction-app
